@@ -1,0 +1,58 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: plum;
+}
+.nap {
+  display: flex;
+  justify-content: last baseline;
+  font-family: "Roboto", sans-serif;
+  font-size: 300;
+  margin: 20px, auto;
+  gap: 3px;
+}
+.nap:hover {
+  color: brown;
+  text-decoration: underline;
+}
+#banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  padding-left: 150px;
+}
+.goods {
+  width: max-content;
+}
+.brands {
+  border: 1px solid black;
+  width: max-content;
+  text-align: center;
+  margin: 5px;
+}
+.brands img {
+  width: 300px;
+  padding: 5px;
+}
+.title {
+  font-weight: bold;
+  margin: 20px;
+}
+button {
+  border: 2px solid #e1701a;
+  background: #f7a;
+  color: white;
+  font-weight: bold;
+  margin: 20px;
+  padding: 5px 10px;
+}
+button:hover {
+  box-shadow: 0 0 5px 5px #f7a4 inset;
+}
+.cart{width: 250px;
+float: right;
+text-align: center;
+border: 1px solid black;
+overflow-y: scroll;
+height: 100%;}
